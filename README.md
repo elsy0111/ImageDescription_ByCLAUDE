@@ -42,7 +42,7 @@
 
    ```
    pwd
-   > ByVue
+   > ImageDescription_ByCLAUDE
    node server.js
    ```
 
@@ -50,7 +50,7 @@
 
    ```
    pwd
-   > ByVue\claude-img-description
+   > ImageDescription_ByCLAUDE\claude-img-description
 
    npm run serve
    ```
