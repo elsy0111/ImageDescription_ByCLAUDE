@@ -34,7 +34,7 @@ app.post('/api/claude', upload.single('image'), async (req, res) => {
       'https://api.anthropic.com/v1/messages',
       {
         model: MODEL,
-        max_tokens: 1024,
+        max_tokens: 4096,
         temperature: 0.7,
         system: SYSTEM_PROMPT,
         messages: [{ role: "user", content }],
